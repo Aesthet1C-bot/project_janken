@@ -47,6 +47,15 @@ function playRound(playerSelection, computerSelection) {
         return "please pick your playing hand"
     }
 }
+
+function game() {
+    console.log(playRound(playerSelection, computerSelection));
+    console.log(playRound(playerSelection, computerSelection));
+    console.log(playRound(playerSelection, computerSelection));
+    console.log(playRound(playerSelection, computerSelection));
+    console.log(playRound(playerSelection, computerSelection));
+}
+
 console.log("player pick" + " " + playerSelection);
 console.log("computer pick" + " " + computerSelection);
-console.log(playRound(playerSelection, computerSelection));
+game()
